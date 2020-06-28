@@ -1,0 +1,46 @@
+master                                                                           #!GUI1.0
+1
+H2O521ICRU
+0, 0, 0, 0
+-1, -1, -1, 1
+-25
+0.5, 100
+-25
+0.5, 100
+0
+0.5, 100
+0, 0, 0, 0, 0, 0, 0, 0
+0, 0, 0, 0, 0, 0, 0, 0
+50, 50, 1, 99, 4, 4, 2, 0
+0, 0, 0, 0, 0, 0, 0, 0
+2, 2, 0, 0, 0, 180, 0, 45, 0, 0, 0, 0, 0, 0
+2, 0, 0, 0, 0, 0, 0, 0
+/home/beam1/tw/reciklaza:rotacija/ispravljeno_s2#1000rec/ispravljeno_s2#1000rec.egsphsp1
+9072431, 0, 999, 33, 97, 100.0, 0, 0, 0, 0, , 0, 0, 0, 1, 1, 0
+ #########################
+ :Start MC Transport Parameter:
+ 
+ Global ECUT= 0
+ Global PCUT= 0
+ Global SMAX= 1e10
+ ESTEPE= 0.25
+ XIMAX= 0.5
+ Boundary crossing algorithm= EXACT
+ Skin depth for BCA= 3
+ Electron-step algorithm= PRESTA-II
+ Spin effects= On
+ Brems angular sampling= KM
+ Brems cross sections= NRC
+ Bound Compton scattering= Norej
+ Compton cross sections= default
+ Pair angular sampling= KM
+ Pair cross sections= NRC
+ Photoelectron angular sampling= On
+ Rayleigh scattering= On
+ Atomic relaxations= On
+ Electron impact ionization= ik
+ Photon cross sections= xcom
+ Photon cross-sections output= Off
+ 
+ :Stop MC Transport Parameter:
+ #########################
